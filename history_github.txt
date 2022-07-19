@@ -1,0 +1,63 @@
+    1  ls -la
+    2  pwd
+    3  ls -la
+    4  sudo yum update -y
+    5  curl ifconfig.io 
+    6  hostname -i
+    7  clear
+    8  ls -la
+    9  cat /etc/os-release 
+   10  cat /etc/os-release >dochistory/hist.txt
+   11  ls -la
+   12  mkdir dochistory
+   13  cat /etc/os-release >dochistory/hist.txt
+   14  ls -la
+   15  cat  /root/dochistory/hist.txt 
+   16  yum install git -y >>/root/dochistory/hist_gitinstall.txt
+   17  ls -la
+   18  which git
+   19  ls -la/bin/git
+   20  ls -la /bin/git
+   21  git --version >>/root/dochistory/hist_gitinstall.txt
+   22  cat /root/dochistory/hist_gitinstall.txt
+   23  mkdir mydata
+   24  cd mydata
+   25  ls -la
+   26  pwd
+   27  git init >>/root/dochistory/hist_gitinstall.txt
+   28  cat /root/dochistory/hist_gitinstall.txt
+   29  cat >> /root/dochistory/hist_gitinstall.txt 
+   30  cd
+   31  ls -la
+   32  pwd
+   33  cd dochistory/
+   34  ls -la
+   35  cat hist_gitinstall.txt 
+   36  cd -
+   37  pwd
+   38  cd mydata/
+   39  ls -la
+   40  ls -la .git/
+   41  ls -la /root/mydata/.git/branches/
+   42  ls -la /root/mydata/.git/hooks/
+   43  ls -la /root/mydata/.git/info/
+   44  ls -la /root/mydata/.git/objects/
+   45  git config --global user.name "Girijesh-devops"
+   46  git config --global user.email "gupta.girijesh@gmail.com
+q
+
+
+   47  git config --global user.email "gupta.girijesh@gmail.com"
+   48  git init
+   49  pwd
+   50  ls -la
+   51  ssh-keygen  -t rsa
+   52  cat ~/.ssh/id_rsa.pub 
+   53  ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDICTDHtov9WlHdco49B30nOZyIoPscXGy2Zm2i+ZdKWhxJT+8pyNNXwYE36p/1t5uBRcwk8/d+Mpv0iHXitG5rQCaWzbR+YFKL4Y7y8RNVwWJq//e2cQEyLa2qYa/Yht2hVZ0gNayW+1CQ7egQIgJK5PC9x4yx2hBp7iYjhzFmujkSLxKOhzaFeQs2sAc8PlNTcJjazXx4ng+M8u4jhS7OOUEcmz4IjgEeHaGkAa1dbDj9u9l6JsHzfaU1bmoic0XXYj7gQSb9OEKLMmmgMFdwoW8QKooN2j45l+8sVcn09m8fJsRl/Osi1yJjKkfkvGY53uos2s+/swX1Yocq3jBN root@ip-172-31-9-184.ap-south-1.compute.internal
+   54  ssh -T git@github.com
+   55  git clone git@github.com:Girijesh-devops/tgmydockerK8s.git
+   56  ls -la
+   57  cd tgmydockerK8s/
+   58  ls -la
+   59  cat README.md 
+   60  history > /root/dochistory/history_github.txt
